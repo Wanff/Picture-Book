@@ -190,11 +190,10 @@ chrome.runtime.onMessage.addListener(
         console.log(imgURLs)
         chrome.storage.local.set({"wordList": wordList, "imgURLs": imgURLs});
         
-        sendResponse({response: "added data to storage"})
+        sendResponse({response: "added data to sorage"})
 
         alert("made flashcards")
            }
     }
   );
 
-  

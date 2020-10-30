@@ -12,7 +12,8 @@
     ],
     "browser_action":  {
         "default_popup": "popup.html",
-        "default_title": "EasyL"
+        "default_title": "EasyL",
+        "default_action": "test.png"
     },
     "background": {
         "scripts": ["background.js"]
